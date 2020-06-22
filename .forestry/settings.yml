@@ -4,9 +4,14 @@ auto_deploy: true
 admin_path: ''
 webhook_url: 
 sections:
+- type: jekyll-posts
+  label: posts
+  create: all
+  match: "**/*"
 - type: jekyll-pages
   label: website_pages
   create: all
+  match: "**/*"
 - type: heading
   label: sidebar
 upload_dir: uploads
