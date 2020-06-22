@@ -4,14 +4,10 @@ auto_deploy: true
 admin_path: ''
 webhook_url: 
 sections:
-- type: jekyll-posts
-  label: posts
-  create: all
 - type: jekyll-pages
-  label: website_pages
+  label: static_pages
   create: all
-  templates:
-  - default
+  match: "**/*"
 upload_dir: photos
 public_path: "/photos"
 front_matter_path: ''
