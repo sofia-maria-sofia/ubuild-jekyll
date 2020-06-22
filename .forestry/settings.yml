@@ -7,7 +7,6 @@ sections:
 - type: jekyll-pages
   label: website_pages
   create: all
-  match: "**/*"
 - type: heading
   label: sidebar
 upload_dir: uploads
