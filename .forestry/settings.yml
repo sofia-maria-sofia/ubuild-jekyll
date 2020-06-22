@@ -10,6 +10,8 @@ sections:
 - type: jekyll-pages
   label: website_pages
   create: all
+  templates:
+  - default
 upload_dir: photos
 public_path: "/photos"
 front_matter_path: ''
