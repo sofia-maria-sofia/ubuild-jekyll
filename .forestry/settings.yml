@@ -7,6 +7,24 @@ sections:
 - type: jekyll-pages
   label: static_pages
   create: all
+  templates:
+  - 2-column-media-element
+  - 4-column-footer
+  - content-feature
+  - detail-content
+  - full-width-media-element
+  - simple-header
+  - text-column
+  - text-only-hero-banner
+  - navigation-header
+  - text-1
+  - signup-bar
+  - 3-column-text
+  - 2-column-text
+  - page-builder
+  - simple-footer
+  - home
+  - 1-column-text
 upload_dir: photos
 public_path: "/photos"
 front_matter_path: ''
